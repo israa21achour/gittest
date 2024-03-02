@@ -26,17 +26,17 @@
     transform: rotate(360deg);
   }
 }
-
-@media (prefers-reduced-motion: n-preference)
-:nth-of-type(2) .l
-    animation: logospin infinite 20s linear;
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
